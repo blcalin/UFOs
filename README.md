@@ -7,25 +7,22 @@ The purpose of this project was to display and organize UFO data into a table th
 Data presented includes information such as date, city, state/country, shape of UFO, duration and comments regarding the UFO seen.
 
 ## Results and Analysis
-### Results
-Through our data set and the analysis of temperature data, we determined the following:
- 1. The mean temperature for June is 74.9 F, while the mean temperature for December is 71.0 F.
- 2. The median temperature for June is 75.0 F, while the median temperature for December is 71.0 F.
- 3. There are fewer data points for December (1,517) versus June (1,700).
+### UFO Sightings
+![image](https://user-images.githubusercontent.com/109991916/197561335-a9053fad-99f9-440c-81a6-d7374301f0e0.png)
 
-![image](https://user-images.githubusercontent.com/109991916/194367947-608492e0-75d9-472e-836e-0ecd0a42233c.png)
-![image](https://user-images.githubusercontent.com/109991916/194368046-29b42082-e2b2-4a94-9fbf-f3edc30982a3.png)
+### Filters on the landing page:
+![image](https://user-images.githubusercontent.com/109991916/197561538-6ee8b060-ab32-4f0e-a3b0-326ade42e799.png)
 
-### Analysis
-Given the dispersion of data between June and December, we would need further information in order to make an informed decision on temperature analysis between 2010-2017.
+### Filters after searching for information:
+Through utilizing the fields provided such as date and city, the user can filter to the information they are looking for by pressing the enter key. Search fields must use lowercase letters and to reset criteria, select UFO Sightings in the upper lefthand corner.
+
+![image](https://user-images.githubusercontent.com/109991916/197562308-615e027c-cfa4-4fe2-8767-4a608606d09b.png)
+
 
 ## Summary
-### Results
-While the above dataframes provide helpful information on temperature in Oahu, we would need to fully understand the trends, inclusive of the same information between both months for the 2010-2017 timeframe. Temperatures in Oahu do not vary much between June and December.
+In order to appropriately utilize the site, users must know specific dates, cities or shapes to search. Additionally, fields are case-sensitive, requiring the user to correctly use lower case with no spaces.
 
-### Additional Queries
-Overall, the use of this data can be very helpful for future temperature analysis. I would recommend the following:
-1. Review statistics for March temperatures in Oahu.
-2. Review statistics for September temperatures in Oahu.
-
-By reviewing temperatures in various points of the year, this will help W. Avy get a broader picture of weather in Oahu. With this extra information, W. Avy should be able to assess the spring and fall months adequately to make an informed decision of whether their business is sustainable year-round. 
+### Additional Recommendations
+Overall, the use of this data can be very helpful for future analysis. I would recommend the following:
+1. Allow users to enter non-case sensitive information (ex: uppercase letters) in order to enhance the user experience.
+2. The use of a date range, such as a dropdown menu for month and/or year, to further results would be useful for users.
